@@ -36,4 +36,4 @@ def getChannel():
     return head + base + m3u
 
 if __name__ == '__main__':
-    app.run('0.0.0.0', PORT)
+    app.run('192.168.137.129', 55421)
